@@ -1,0 +1,24 @@
+Rollup for Asha, 27 Aug 2026 07:00
+
+  [0] (for_you) **Round details to the investor.** Overdue since 24 August; still unsent.   cites ['m01']
+  [1] (for_others) Bruno, on scoring criteria: overdue since 24 August.   cites ['m02']
+  [2] (for_others) Chen still owes the WorkOS org-support plan, 1 day overdue.   cites ['m04']
+  [3] (other_updates) The waitlist launch is set for 26 August.   cites ['m06']
+  [4] (other_updates) Chen noted: interviewing with another startup next week.   cites ['m08']
+  [5] (for_you) Fathom integration ownership is unowned.   cites -
+
+Verdict: HOLD
+
+  line 0  DATE            says overdue since 24 August; due date is 25 August
+                        fix: overdue since 25 August
+  line 1  SUPERSEDED      m02 (18 Aug) was replaced by m03 (25 Aug): scoring criteria moved to 29 August
+                        fix: rebuild from m03
+  line 2  SUPERSEDED      m04 (21 Aug) was replaced by m05 (26 Aug): WorkOS plan merged
+                        fix: rebuild from m05
+  line 3  CONFLICT_HIDDEN stores disagree on 'waitlist launch' (Bruno: 26 August launch as set vs Asha: hold until real users exist)
+                        fix: cite both sides and say they disagree
+  line 4  PERSONAL_LEAK   m08 from Chen's store is personal content ('interviewing with')
+                        fix: remove; personal memories stay in their owner's rollup
+  line 5  CITE_MISSING    line cites no memory
+
+A 'cites a memory that exists' check would flag only line 5.

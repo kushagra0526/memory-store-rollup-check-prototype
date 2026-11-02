@@ -1,0 +1,32 @@
+{
+ "split": "dev",
+ "bad_lines": 379,
+ "caught": 379,
+ "by_kind": {
+  "deleted": "9/9",
+  "early_overdue": "3/3",
+  "future_cite": "64/64",
+  "ghost_cite": "64/64",
+  "hidden_conflict": "27/27",
+  "no_cite": "56/56",
+  "owner_for_you": "14/14",
+  "owner_named": "18/18",
+  "personal_leak": "14/14",
+  "stale_done": "27/27",
+  "stale_due": "11/11",
+  "wrong_date": "23/23",
+  "wrong_days": "17/17",
+  "wrong_quiet": "32/32"
+ },
+ "clean_lines": 3846,
+ "false_flags": {},
+ "rollups": {
+  "clean": 101,
+  "clean_flagged": 0,
+  "bad": 221,
+  "bad_sent": 0,
+  "bad_sent_baseline": 123,
+  "clean_flagged_baseline": 0
+ },
+ "examples": []
+}

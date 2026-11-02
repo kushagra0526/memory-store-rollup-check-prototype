@@ -1,0 +1,38 @@
+{
+ "split": "heldout",
+ "bad_lines": 610,
+ "caught": 609,
+ "by_kind": {
+  "deleted": "13/13",
+  "early_overdue": "5/5",
+  "future_cite": "102/102",
+  "ghost_cite": "97/97",
+  "hidden_conflict": "46/46",
+  "no_cite": "119/119",
+  "owner_for_you": "21/21",
+  "owner_named": "22/22",
+  "personal_leak": "15/16",
+  "stale_done": "45/45",
+  "stale_due": "18/18",
+  "wrong_date": "29/29",
+  "wrong_days": "29/29",
+  "wrong_quiet": "48/48"
+ },
+ "clean_lines": 6556,
+ "false_flags": {},
+ "rollups": {
+  "clean": 187,
+  "clean_flagged": 0,
+  "bad": 363,
+  "bad_sent": 0,
+  "bad_sent_baseline": 180,
+  "clean_flagged_baseline": 0
+ },
+ "examples": [
+  {
+   "kind": "personal_leak",
+   "line": "From Ines: chemo appointments for my aunt",
+   "got": []
+  }
+ ]
+}
